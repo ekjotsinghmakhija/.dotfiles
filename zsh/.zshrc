@@ -101,36 +101,36 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.zsh_profile
 
-alias luamake=/home/mpaulson/personal/lua-language-server/3rd/luamake/luamake
+alias luamake=/home/ekjot/personal/lua-language-server/3rd/luamake/luamake
 
 # bun completions
-[ -s "/home/mpaulson/.bun/_bun" ] && source "/home/mpaulson/.bun/_bun"
+[ -s "/home/ekjot/.bun/_bun" ] && source "/home/ekjot/.bun/_bun"
 
 # Bun
-export BUN_INSTALL="/home/mpaulson/.bun"
+export BUN_INSTALL="/home/ekjot/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Bun
-export BUN_INSTALL="/home/mpaulson/.bun"
+export BUN_INSTALL="/home/ekjot/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # pnpm
-export PNPM_HOME="/home/mpaulson/.local/share/pnpm"
+export PNPM_HOME="/home/ekjot/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 # Turso
-export PATH="/home/mpaulson/.turso:$PATH"
+export PATH="/home/ekjot/.turso:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/mpaulson/.local/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/ekjot/.local/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/mpaulson/.local/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/mpaulson/.local/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/ekjot/.local/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/ekjot/.local/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/mpaulson/.local/anaconda3/bin:$PATH"
+        export PATH="/home/ekjot/.local/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
